@@ -1,0 +1,103 @@
+[[package]]
+category = "dev"
+description = "Python graph (network) package"
+name = "altgraph"
+optional = false
+python-versions = "*"
+version = "0.17"
+
+[[package]]
+category = "main"
+description = "Composable command line interface toolkit"
+name = "click"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "7.0"
+
+[[package]]
+category = "dev"
+description = "Python 2.7 backport of the \"dis\" module from Python 3.5+"
+name = "dis3"
+optional = false
+python-versions = "*"
+version = "0.1.3"
+
+[[package]]
+category = "dev"
+description = "Create cross-platform desktop applications with Python and Qt"
+name = "fbs"
+optional = false
+python-versions = "*"
+version = "0.8.4"
+
+[package.dependencies]
+PyInstaller = ">=3.3"
+
+[[package]]
+category = "dev"
+description = "Mach-O header analysis and editing"
+name = "macholib"
+optional = false
+python-versions = "*"
+version = "1.14"
+
+[package.dependencies]
+altgraph = ">=0.15"
+
+[[package]]
+category = "dev"
+description = "PyInstaller bundles a Python application and all its dependencies into a single package."
+name = "pyinstaller"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+version = "3.6"
+
+[package.dependencies]
+altgraph = "*"
+dis3 = "*"
+setuptools = "*"
+
+[[package]]
+category = "main"
+description = "Python bindings for the Qt cross platform application toolkit"
+name = "pyqt5"
+optional = false
+python-versions = ">=3.5"
+version = "5.14.1"
+
+[package.dependencies]
+PyQt5-sip = ">=12.7,<13"
+
+[[package]]
+category = "main"
+description = "The sip module support for PyQt5"
+name = "pyqt5-sip"
+optional = false
+python-versions = ">=3.5"
+version = "12.7.1"
+
+[[package]]
+category = "main"
+description = "A minigame of the Goldenrod and Celadon Game Corners in the Korean and Western releases of Pokémon HeartGold and SoulSilver."
+name = "voltorb-flip"
+optional = false
+python-versions = ">=3.7,<4.0"
+version = "0.1.1.dev0"
+
+[package.dependencies]
+click = ">=7.0,<8.0"
+
+[metadata]
+content-hash = "4752fe59b4f1de1c2b173a5281872a569f78c033c5021052dbb17870fe3af70c"
+python-versions = "^3.7"
+
+[metadata.hashes]
+altgraph = ["1f05a47122542f97028caf78775a095fbe6a2699b5089de8477eb583167d69aa", "c623e5f3408ca61d4016f23a681b9adb100802ca3e3da5e718915a9e4052cebe"]
+click = ["2335065e6395b9e67ca716de5f7526736bfa6ceead690adf616d925bdc622b13", "5b94b49521f6456670fdb30cd82a4eca9412788a93fa6dd6df72c94d5a8ff2d7"]
+dis3 = ["30b6412d33d738663e8ded781b138f4b01116437f0872aa56aa3adba6aeff218", "61f7720dd0d8749d23fda3d7227ce74d73da11c2fade993a67ab2f9852451b14", "9259b881fc1df02ed12ac25f82d4a85b44241854330b1a651e40e0c675cb2d1e"]
+fbs = ["3c750ea270c7684bad52f08b60486396b1796d61e6ebc4c17e6f7e2fe95c30c4"]
+macholib = ["0c436bc847e7b1d9bda0560351bf76d7caf930fb585a828d13608839ef42c432", "c500f02867515e6c60a27875b408920d18332ddf96b4035ef03beddd782d4281"]
+pyinstaller = ["3730fa80d088f8bb7084d32480eb87cbb4ddb64123363763cf8f2a1378c1c4b7"]
+pyqt5 = ["2d94ec761fb656707050c68b41958e3a9f755bb1df96c064470f4096d2899e32", "2f230f2dbd767099de7a0cb915abdf0cbc3256a0b5bb910eb09b99117db7a65b", "31b142a868152d60c6323e0527edb692fdf05fd7cb4fe2fe9ce07d1ce560221a", "713b9a201f5e7b2fca8691373e5d5c8c2552a51d87ca9ffbb1461e34e3241211", "a0bfe9fd718bca4de3e33000347e048f73126b6dc46530eb020b0251a638ee9d"]
+pyqt5-sip = ["1115728644bbadcde5fc8a16e7918bd31915a42dd6fb36b10d4afb78c582753e", "1f4289276d355b6521dc2cc956189315da6f13adfb6bbab8f25ebd15e3bce1d4", "288c6dc18a8d6a20981c07b715b5695d9b66880778565f3792bc6e38f14f20fb", "3f665376d9e52faa9855c3736a66ce6d825f85c86d7774d3c393f09da23f4f86", "6b4860c4305980db509415d0af802f111d15f92016c9422eb753bc8883463456", "7ffa39763097f64de129cf5cc770a651c3f65d2466b4fe05bef2bd2efbaa38e6", "8a18e6f45d482ddfe381789979d09ee13aa6450caa3a0476503891bccb3ac709", "8da842d3d7bf8931d1093105fb92702276b6dbb7e801abbaaa869405d616171a", "b42021229424aa44e99b3b49520b799fd64ff6ae8b53f79f903bbd85719a28e4", "b5b4906445fe980aee76f20400116b6904bf5f30d0767489c13370e42a764020", "c1e730a9eb2ec3869ed5d81b0f99f6e2460fb4d77750444c0ec183b771d798f7", "cbeeae6b45234a1654657f79943f8bccd3d14b4e7496746c62cf6fbce69442c7", "d46b0f8effc554de52a1466b1bd80e5cb4bce635a75ac4e7ad6247c965dec5b9", "e28c3abc9b62a1b7e796891648b9f14f8167b31c8e7990fae79654777252bb4d", "e6078f5ee7d31c102910d0c277a110e1c2a20a3fc88cd017a39e170120586d3f", "ee1a12f09d5af2304273bfd2f6b43835c1467d5ed501a6c95f5405637fa7750a", "f314f31f5fd39b06897f013f425137e511d45967150eb4e424a363d8138521c6"]
+voltorb-flip = ["69be907aa88a8a0c57fa2008830d2712c7d885ccd8c8be94f447ef8c9df869db", "a077b6e713ac0d411a58a4da65f8d720d29b797630cbc38207fafc91f25a27e9"]
