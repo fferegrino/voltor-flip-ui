@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "voltorb-flip-ui"
-version = "0.0.0"
+version = "0.1.0"
 description = "A PyQt UI for my voltorb-flip"
 authors = ["Antonio Feregrino <antonio.feregrino@gmail.com>"]
 license = "MIT"
@@ -16,7 +16,7 @@ black = {version = "^18.3-alpha.0", allow-prereleases = true}
 fbs = "^0.8.4"
 isort = "^4.3"
 macholib = "^1.14"
-PyInstaller = "^3.6"
+PyInstaller = "3.5"
 pylint = "^2.4"
 pytest = "^5.2"
 pytest-cov = "^2.8"
