@@ -408,7 +408,7 @@ python-versions = ">=3.6"
 version = "2.2.0"
 
 [metadata]
-content-hash = "d58c93790c009276f80e32126d46257b7b5717484996318f3d60a2745efe48e5"
+content-hash = "3fe194530399ffd2789f1629e3f25d7721c2c378ce7c4314df727ffd72153925"
 python-versions = "^3.7"
 
 [metadata.hashes]
